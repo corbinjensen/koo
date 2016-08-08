@@ -5,13 +5,24 @@
 	<title>Koodo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style/style.css">
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+	  // $('#orange-button').Click(function(){
+	  // 	$('box').addClass('orange')
+	  // });
+		$( "#orange-button" ).click(function() {
+		  $('.box').addClass('orange');
+		});
+		$( "#green-button" ).click(function() {
+		  $('.box').addClass('green');
+		});
+		$( "#reset-button" ).click(function() {
+		  $('.box').addClass('reset');
+		});		
+	}); //end doc ready
+	</script>
 </head>
-<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-<script>
-	$( "#orange-button" ).click(function() {
-	  $( header ).css("background-color", "orange");
-	});
-</script>
 <body>
 	<header>
 		<h1>Koodo</h1>
