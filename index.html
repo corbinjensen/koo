@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Koodo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script>
+	$( "#orange" ).click(function() {
+	  $( header ).css("background-color", "orange");
+	});
+</script>
+<body>
+	<header>
+		<h1>Koodo</h1>
+	</header>
+	<article>
+		<nav class="buttons">
+			<button id="orange" >Orange</button>
+			<button>Green</button>
+			<button>Reset</button>
+		</nav>
+		<div class="container">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+		</div>
+	</article>
+	<footer>
+		<p>Im the footer</p>
+	</footer>
+</body>
+</html>

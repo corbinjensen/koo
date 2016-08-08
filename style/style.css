@@ -1,0 +1,33 @@
+@import url(normalize.css);
+
+body {
+	font-family: "helvetica", "arial", sans-serif;
+	background-color: white;
+}
+
+header {
+	background-color: #00a1db;
+}
+
+article {
+	min-width: 767px;
+	margin: 0 auto;
+}
+
+article > div {
+	background-color: orange;
+	width: 90%;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	min-height: 10%;
+}
+
+/*flexbox*/
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: ltr;
+}
