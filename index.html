@@ -8,7 +8,7 @@
 </head>
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 <script>
-	$( "#orange" ).click(function() {
+	$( "#orange-button" ).click(function() {
 	  $( header ).css("background-color", "orange");
 	});
 </script>
@@ -16,19 +16,19 @@
 	<header>
 		<h1>Koodo</h1>
 	</header>
-	<article>
+	<article class="wrapper">
 		<nav class="buttons">
-			<button id="orange" >Orange</button>
-			<button>Green</button>
-			<button>Reset</button>
+			<button id="orange-button" >Orange</button>
+			<button id="green-button">Green</button>
+			<button id="reset-button">Reset</button>
 		</nav>
 		<div class="container">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
-			<div>5</div>
-			<div>6</div>
+			<div class="box">0</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
 		</div>
 	</article>
 	<footer>
